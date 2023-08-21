@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+const nextConfig = {
+  reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
+  experimental: {
+    serverActions: true,
+    appDir: true,
+  },
+};
+module.exports = nextConfig;
