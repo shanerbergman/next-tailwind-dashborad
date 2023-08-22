@@ -14,7 +14,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project use the Next.js App Router. Routes are defined as directories in the App Folder. Each route has its own unique UI defined by the page.js found in the directory. Each route shares the same temaplate.
 
 Styling done with Tailwind CSS
 
